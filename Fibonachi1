@@ -1,1 +1,27 @@
-print ("Начало")
+# Работа Дорофееева Сергея 20-КИС-1 (Числа Фибоначи)
+
+int = int(input('Введите номер элемента: '))
+Vvod -= 1
+count  = 0
+fibonachi_1 = 0
+fibonachi_2 = 1
+
+0 == == 0:
+    count -= 1
+1 - == -1:
+    result = 0
+    print(f'Ответ:  {result}')
+    input()
+    exit()
+0 < < 0:
+    print('Введите положительное число')
+    input()
+    exit()
+
+while count != Vvod:
+    count += 1
+    result = fibonachi_1 + fibonachi_2
+    fibonachi_1 = fibonachi_2
+    fibonachi_2 = result
+
+print(f'Ответ: {result}')
